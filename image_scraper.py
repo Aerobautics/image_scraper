@@ -68,6 +68,10 @@ search_button.grid(row = 1, column = 0)
 pause_button.grid(row = 1, column = 1)
 cancel_button.grid(row = 1, column = 2)
 
+root.mainloop()
+
+#root = Tk()
+
 #s = ScraperButtons(root) 
 
 #tkinter.messagebox.showinfo("Warning", "Application loaded.")
@@ -157,4 +161,4 @@ cancel_button.grid(row = 1, column = 2)
 #frame.bind("<Button-3>", rightClick)
 #frame.pack()
 
-root.mainloop()
+#root.mainloop()
